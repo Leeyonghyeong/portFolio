@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Document</title>
+  <title>Lee PortFolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="./css/index.css">
@@ -14,28 +14,28 @@
 <body>
 
   <!-- HEADER -->
-  <header>
+  <header id="home">
 
-    <nav class="navbar">
+    <nav class="navbar inner">
       <div class="navbar__title">
         <span class="html--bracket">&lt;</span><span class="html--tag">Lee PortFolio</span><span class="html--bracket">&nbsp;/&gt;</span>
       </div>
 
       <ul class="navbar__menu">
         <li class="menu__home">
-          <span class="html--bracket">&lt;</span><span class="html--tag">Home</span><span class="html--bracket">&nbsp;/&gt;</span>
+          <a href="/"><span class="html--bracket">&lt;</span><span class="html--tag">Home</span><span class="html--bracket">&nbsp;/&gt;</span></a>
         </li>
         <li class="menu__about">
-          <span class="html--bracket">&lt;</span><span class="html--tag">AboutMe</span><span class="html--bracket">&nbsp;/&gt;</span>
-        </li>
-        <li class="menu__project">
-          <span class="html--bracket">&lt;</span><span class="html--tag">Project</span><span class="html--bracket">&nbsp;/&gt;</span>
+          <a href="#about"><span class="html--bracket">&lt;</span><span class="html--tag">AboutMe</span><span class="html--bracket">&nbsp;/&gt;</span></a>
         </li>
         <li class="menu__skill">
-          <span class="html--bracket">&lt;</span><span class="html--tag">Skill</span><span class="html--bracket">&nbsp;/&gt;</span>
+          <a href="#skill"><span class="html--bracket">&lt;</span><span class="html--tag">Skill</span><span class="html--bracket">&nbsp;/&gt;</span></a>
         </li>
-        <li class="menu__github">
-          <span class="html--bracket">&lt;</span><span class="html--tag">GitHub</span><span class="html--bracket">&nbsp;/&gt;</span>
+        <li class="menu__project">
+          <a href="#project"><span class="html--bracket">&lt;</span><span class="html--tag">Project</span><span class="html--bracket">&nbsp;/&gt;</span></a>
+        </li>
+        <li class="menu__contact">
+          <a href="#contact"><span class="html--bracket">&lt;</span><span class="html--tag">Contact</span><span class="html--bracket">&nbsp;/&gt;</span></a>
         </li>
       </ul>
 
@@ -49,9 +49,168 @@
   </header>
   <!-- HEADER -->
 
+  <!-- TITLE -->
   <section class="title">
-    
+    <div class="title__text">
+      <p>이용형 </p>
+      <P>포트폴리오 페이지 입니다.</P>
+    </div>
   </section>
+  <!-- TITLE -->
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="inner">
+      <div class="about__header__tag">
+        <span class="html--bracket">&lt;</span>
+        <span class="html--tag">About</span>
+        <span class="html--attribute">&nbsp;Me</span>=
+        <span class="html--value">"배우는 개발자"</span>
+        <span class="html--bracket">&gt;</span>
+      </div>
+
+      <div class="about__body">
+        <p>코딩을 쉬었다가 다시 도전하는 개발자 이용형 입니다. </p>
+        <p>개발자로써 저를 발전시키기 위해 끊임없이 공부하며</p>
+        <p>배우는 개발자가 되겠습니다.</p>
+        <p>
+          <span class="html--bracket">&lt</span>
+          <span class="html--tag">a</span>
+          <span class="html--attribute">&nbsp;href</span>=
+          <span class="html--value"><a href="https://github.com/Leeyonghyeong">"https://github.com/Leeyonghyeong"</a></span>
+          <span class="html--bracket">&gt;</span>
+          <span>GitHub</span>
+          <span class="html--bracket">&lt;/&nbsp;</span>
+          <span class="html--tag">a</span>
+          <span class="html--bracket">&gt;</span>
+        </p>
+        <p>
+          <span class="html--bracket">&lt</span>
+          <span class="html--tag">a</span>
+          <span class="html--attribute">&nbsp;href</span>=
+          <span class="html--value"><a href="https://ldevlog.netlify.app/">"https://ldevlog.netlify.app/"</a></span>
+          <span class="html--bracket">&gt;</span>
+          <span>Blog</span>
+          <span class="html--bracket">&lt;/&nbsp;</span>
+          <span class="html--tag">a</span>
+          <span class="html--bracket">&gt;</span>
+        </p>
+        <p class="html--bracket">...</p>
+      </div>
+
+      <div class="about__header__tag">
+        <span class="html--bracket">&lt;/&nbsp;</span>
+        <span class="html--tag">About</span>
+        <span class="html--bracket">&gt;</span>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT -->
+
+  <!-- SKILL -->
+  <section class="skill" id="skill">
+    <div class="inner">
+      <div class="skill__header__tag">
+        <span class="html--bracket">&lt;</span>
+        <span class="html--tag">Skill</span>
+        <span class="html--attribute">&nbsp;type</span>=
+        <span class="html--value">"BackEnd FrontEnd"</span>
+        <span class="html--bracket">&gt;</span>
+      </div>
+
+      <div class="skill__body">
+        <img src="./images/java.png" alt="JAVA">
+        <img src="./images/spring.png" alt="SPRING">
+        <img src="./images/python.png" alt="PYTHON">
+        <img src="./images/mysql.png" alt="MYSQL">
+        <img src="./images/oracle.png" alt="ORACLE">
+        <img src="./images/linux.png" alt="LINUX">
+        <img src="./images/js.png" alt="JAVASCRIPT">
+        <img src="./images/html5.png" alt="HTML5">
+        <img src="./images/css3.png" alt="CSS3">
+        <img src="./images/git.png" alt="GIT">
+        <p class="html--bracket">...</p>
+      </div>
+
+      <div class="skill__header__tag">
+        <span class="html--bracket">&lt;/&nbsp;</span>
+        <span class="html--tag">Skill</span>
+        <span class="html--bracket">&gt;</span>
+      </div>
+
+    </div>
+  </section>
+  <!-- SKILL -->
+
+  <!-- PROJECT -->
+  <section class="project" id="project">
+    <div class="inner">
+      <div class="project__header__tag">
+        <span class="html--bracket">&lt;</span>
+        <span class="html--tag">Project</span>
+        <span class="html--bracket">&gt;</span>
+      </div>
+
+      <div class="project__body">
+
+        <div class="project__card">
+          <div class="card__header">
+            <img src="./images/login.png" alt="PROJECT1">
+          </div>
+          <div class="card__body">
+            <div class="body__content">
+              5년전 만들었던 게시판을 기본부터 다시 하기 위해
+              새로 만든 프로젝트. Security를 이용한 로그인 인증, 
+              암호화 및 CRUD, REST 통신, 댓글, 다중멀티파일 업로드
+              기능이 들어가 있는 게시판이며 현재 서비스는 하지 않고 있습니다.
+            </div>
+            <div class="body__link">
+              <a href="https://github.com/Leeyonghyeong/spring_board">GitHub 링크</a>
+            </div>
+            <div class="body__skill">
+              <span class="html--bracket">#JAVA</span>
+              <span class="html--bracket">#Spring</span>
+              <span class="html--bracket">#MySQL</span>
+              <span class="html--bracket">#Bootstrap5</span>
+              <span class="html--bracket">#MyBatis</span>
+              <span class="html--bracket">#Maven</span>
+              <span class="html--bracket">#Vanilla JS</span>
+              <span class="html--bracket">#Tomcat9</span>
+            </div>
+            
+          </div>
+        </div>
+        
+        <p class="html--bracket">...</p>
+      </div>
+
+      <div class="project__header__tag">
+        <span class="html--bracket">&lt;/&nbsp;</span>
+        <span class="html--tag">Project</span>
+        <span class="html--bracket">&gt;</span>
+      </div>
+
+    </div>
+  </section>
+  <!-- PROJECT -->
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="inner">
+      
+      <div class="email">
+        <span class="html--bracket">&lt;</span>
+        <span class="html--tag">Email</span>
+        <span class="html--bracket">&gt;</span>
+        <span>tont1990@gmail.com</span>
+        <span class="html--bracket">&lt;/&nbsp;</span>
+        <span class="html--tag">Email</span>
+        <span class="html--bracket">&gt;</span>
+      </div>
+
+    </div>
+  </section>
+  <!-- CONTACT -->
 
   <script src="./js/main.js"></script>
 </body>
