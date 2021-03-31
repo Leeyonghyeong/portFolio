@@ -312,6 +312,8 @@ section.title .title__text p:last-child {
 
 .skill__body img {
   display: inline-block;
+  width: 72px;
+  height: 72px;
 }
 
 .skill__body img.toggle {
@@ -382,7 +384,7 @@ section.title .title__text p:last-child {
 
 .project__card .card__header img {
   width: 100%;
-  height: 100%;
+  height: 160px;
 }
 
 .card__body {
